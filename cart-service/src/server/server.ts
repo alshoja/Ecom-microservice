@@ -1,4 +1,5 @@
-import app from '../app';
+/* eslint-disable no-console */
+import app from '../app ';
 
 const PORT = 3000;
 
