@@ -1,13 +1,14 @@
-import * as bodyParser from 'body-parser';
-import * as cors from 'cors';
-import * as dotenv from 'dotenv';
+/* eslint-disable no-console */
+import bodyParser from 'body-parser';
+import cors from 'cors';
+import dotenv from 'dotenv';
 import express from 'express';
 import { NextFunction, Request, Response } from 'express';
-import * as fs from 'fs';
-import * as mongoose from 'mongoose';
+import fs from 'fs';
+import mongoose from 'mongoose';
 import morgan from 'morgan';
 import multer from 'multer';
-import * as path from 'path';
+import path from 'path';
 
 import { Routes } from './app/routes/Router';
 
@@ -31,7 +32,7 @@ class App {
     this.app.use(cors());
     this.mongoSetup();
     this.upload();
-    // this.log();
+    this.log();
   }
 
   private setHeaders() {
@@ -89,7 +90,7 @@ class App {
         useNewUrlParser: true,
         useUnifiedTopology: true,
       })
-      .then((res) => {
+      .then(() => {
         console.log('DB Connected');
       })
       .catch((err) => {
