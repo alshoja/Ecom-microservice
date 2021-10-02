@@ -2,6 +2,6 @@ product-service/node_modules
 auth-service/node_modules
 cart-service/node_modules
 
-product-service/assets
-auth-service/assets
-cart-service/assets
+product-service/src/assets
+auth-service/src/assets
+cart-service/src/assets
