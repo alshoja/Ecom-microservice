@@ -1,3 +1,32 @@
 {
-    "git.ignoreLimitWarning": true
-}
+    "files.eol": "\n",
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "eslint.format.enable": true,
+    "eslint.validate": ["javascript", "typescript", "yaml", "json"],
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true
+    },
+    "cSpell.words": [
+      "HASURA",
+      "Lexo",
+      "Luxon",
+      "civalgo",
+      "lowercased",
+      "pino",
+      "sendgrid",
+      "twilio",
+      "unmanipulated"
+    ],
+    "typescript.tsdk": "node_modules/typescript/lib"
+  }
+  

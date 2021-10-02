@@ -1,14 +1,14 @@
-import * as express from "express";
+import express from "express";
 import * as bodyParser from "body-parser";
 import { Request, Response, NextFunction } from "express";
 import * as dotenv from 'dotenv';
 import * as mongoose from 'mongoose';
 import { Routes } from './app/routes/Router'
-import * as morgan from 'morgan';
+import morgan from 'morgan';
 import * as fs from 'fs';
 import * as cors from 'cors';
 import * as path from 'path';
-import * as multer from 'multer';
+import multer from 'multer';
 class App {
     public app: express.Application;
     public route: Routes = new Routes();
