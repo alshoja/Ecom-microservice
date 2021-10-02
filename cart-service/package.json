@@ -7,7 +7,10 @@
     "build": "tsc",
     "dev": "ts-node ./src/server/server.ts",
     "start": "nodemon ./dist/server.js",
-    "prod": "npm run build && npm run start"
+    "prod": "npm run build && npm run start",
+    "lint": "eslint --ext .js,.ts . --cache --max-warnings 1569",
+    "lint:errors-only": "eslint --ext .js,.ts . --cache --quiet",
+    "lint:fix": "eslint --ext .js,.ts . --cache --fix"
   },
   "author": "alshoja",
   "license": "ISC",
