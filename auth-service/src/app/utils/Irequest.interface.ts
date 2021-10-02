@@ -1,5 +1,5 @@
-import { Request, NextFunction, Response } from "express";
+import { Request } from 'express';
 
 export interface IRequest extends Request {
-    userId: string
+  userId: string;
 }

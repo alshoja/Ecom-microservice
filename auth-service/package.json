@@ -5,9 +5,8 @@
   "main": "/src/app.ts",
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node ./src/server/server.ts",
+    "dev": "ts-node ./src/server/server.ts &&  npm run start",
     "start": "nodemon ./dist/server.js",
-    "prod": "npm run build && npm run start",
     "lint": "eslint --ext .js,.ts . --cache --max-warnings 1569",
     "lint:errors-only": "eslint --ext .js,.ts . --cache --quiet",
     "lint:fix": "eslint --ext .js,.ts . --cache --fix"
