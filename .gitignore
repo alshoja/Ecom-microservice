@@ -5,3 +5,7 @@ cart-service/node_modules
 product-service/src/assets
 auth-service/src/assets
 cart-service/src/assets
+
+product-service/server/logs
+auth-service/server/logs
+cart-service/server/logs

@@ -1,1 +1,4 @@
 ::1 - - [02/Oct/2021:10:22:08 +0000] "POST /login HTTP/1.1" 200 33 "-" "PostmanRuntime/7.26.8"
+::1 - - [02/Oct/2021:11:34:54 +0000] "GET / HTTP/1.1" 404 139 "-" "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36"
+::1 - - [02/Oct/2021:11:43:06 +0000] "POST /user HTTP/1.1" 422 110 "-" "PostmanRuntime/7.26.8"
+::1 - - [02/Oct/2021:11:53:37 +0000] "POST /user HTTP/1.1" 200 224 "-" "PostmanRuntime/7.26.8"
